@@ -134,15 +134,20 @@ export default function RoadmapSection() {
               flex-direction: column;
             }
             .roadmap-image-col {
-              width: 100%;
+              width: 100% !important;
               margin-bottom: 2.5rem;
               height: auto !important;
+            }
+            .roadmap-image {
+              width: 50% !important;
+              margin-left: auto;
+              margin-right: auto;
             }
             .roadmap-timeline {
               display: none;
             }
             .roadmap-content-col {
-              width: 100%;
+              width: 100% !important;
             }
           }
         `}</style>
@@ -156,7 +161,7 @@ export default function RoadmapSection() {
                 alt="Geggle Roadmap Visualization" 
                 width={500}
                 height={500}
-                className="w-full md:w-3/5 lg:w-full h-auto rounded-xl object-cover mx-auto md:mx-auto lg:mx-0"
+                className="roadmap-image w-full lg:w-full h-auto rounded-xl object-cover mx-auto lg:mx-0"
               />
             </div>
           </div>
