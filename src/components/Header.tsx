@@ -18,7 +18,7 @@ export default function Header() {
               <li><Link href="#roadmap" className="text-white/80 hover:text-white transition-colors">Roadmap</Link></li>
             </ul>
             <Link 
-              href="https://docs.geggle.com" 
+              href="https://docs.geggle.io" 
               target="_blank"
               className="py-2 px-6 rounded-full bg-[#131d2a] hover:bg-[#1c2636] text-white transition-colors border border-gray-700"
             >
